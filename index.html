@@ -1,57 +1,118 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin:0px;
+			font-family:tahoma,arial,helvetica,sans-serif;
+			
+		}
+		header{
+			background:#2c3e50;
+			height:100px;
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Votemvc : a simple Vote application based on MVC model " />
+		}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		header nav a {
+			float:left;
+		}
+		header nav ul {
+			float:right;
+			list-style-type:none;
+			
+		}
+		header nav ul li {
+	
+		float:left;
+		margin: 0px 20px 20px 0px;
+		text-transform:uppercase;
+		}
+	
+		header nav ul li a {
+	
+			color:#ffffff;
+			text-decoration:none;
+			
+		}
+		header #logo{
+			color:#fff;
+			text-decoration:none;
 
-    <title>Votemvc</title>
-  </head>
+					}
+		header #logo span{
+					font-family:tahoma;
+					font-size:25px;
+					padding:4px;
+					}
+		 #wrapper  {
+			width:900px;
+			padding-top:15px;
+			overflow:hidden;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		#first{
+			margin:0px;
+			padding:0px;
+			background:#2c3e50;
+			height:400px;
+						text-align:center;
 
-  <body>
+			
+		}
+		#first h1{
+			color:#d35400;
+			font-family:arial;
+			font-size:65px;
+			text-shadow: 0px 0px 5px rgba(0,0,0, 0.3);
+		}
+		#first span{
+			color:#FFF;
+			font-family:arial;
+			font-size:30px;
+		}
+		#first span a {			color:#FFF;text-decoration:none;
+}
+		#seconde{
+			height:400px;
+		}
+		footer{
+			
+			font-family:arial;
+		}
+		
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/stenrdj/VoteMVC">View on GitHub</a>
+	</style>
+</head>
+<body>
+	<header>
+		<span id="topbar"></span>
+		<nav id="wrapper">
+			<a href="" id="logo"><img src="logo.png"/> <span>VoteMVC</span></a>
+			<ul>
+					<li><a href="" title="#top">Home</a></li>
+					<li><a href="" title="https://github.com/stenrdj/VoteMVC/wiki">Wiki</a></li>
+					<li><a href="" title="https://github.com/stenrdj/VoteMVC/pulls">Questions</a></li>
+				</ul>
+		</nav>
+		
+	</header>
+	<article id="first">
+	<section id="wrapper">
+		<h1>SIMPLE VOTE SYSTEM WITH MVC ARCHITUCTURE </h1>
+		<span> <a href="https://github.com/stenrdj/VoteMVC/archive/master.zip">Download </a>|<a href="https://github.com/stenrdj/VoteMVC"> View Source</a></span>
+	</section>
+	
+	</article>
+	<article id="seconde">
+		
 
-          <h1 id="project_title">Votemvc</h1>
-          <h2 id="project_tagline">a simple Vote application based on MVC model </h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/stenrdj/VoteMVC/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/stenrdj/VoteMVC/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="votemvc" class="anchor" href="#votemvc"><span class="octicon octicon-link"></span></a>VoteMVC</h1>
-
-<p>a simple Vote application based on MVC model </p>
-
-<h1>
-<a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h1>
-
-<p>1 - Config DATABASE on config.inc.php</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Votemvc maintained by <a href="https://github.com/stenrdj">stenrdj</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	</article>
+	<footer id="wrapper">
+		<p>All right reserverd (c) Aziz Segaoui  </p>
+	</footer>
+</body>
 </html>
